@@ -717,7 +717,7 @@ interface Options {
 
 #### `Schema.validateSync(value: any, options?: object): InferType<Schema>`
 
-Runs validatations synchronously _if possible_ and returns the resulting value,
+Runs validations synchronously _if possible_ and returns the resulting value,
 or throws a ValidationError. Accepts all the same options as `validate`.
 
 Synchronous validation only works if there are no configured async tests, e.g tests that return a Promise.
